@@ -33,11 +33,10 @@ header {
     margin: 250px;
     align-items: center;
     background-color: white;
-    size-adjust: 700px;
+    height: 1300px;
 } 
 
-.tasto1 {+
-            qq      quotes: ;
+.tasto1 {
     background-color: aqua;
     background-size: cover;
  }
@@ -47,4 +46,8 @@ header {
     background-size: cover;
     color: lightgray;
 
+}
+
+.testo {
+    text-align: middle;
 }
