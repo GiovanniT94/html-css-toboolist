@@ -29,16 +29,22 @@ header {
     vertical-align: 13px;
 }
 
+.contenitore1 {
+    margin: 250px;
+    align-items: center;
+    background-color: white;
+    size-adjust: 700px;
+} 
 
-main {
-    align: middle;
-}
+.tasto1 {+
+            qq      quotes: ;
+    background-color: aqua;
+    background-size: cover;
+ }
 
-.task {
-    background-color: rgb(13, 92, 240);
-    border-radius: 2px;
-}
-h1 {
-    size: 12px;
-    text-align: middle;
+.tasto2 {
+    background-color: white;
+    background-size: cover;
+    color: lightgray;
+
 }
