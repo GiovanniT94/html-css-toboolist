@@ -5,34 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <img src="img/Logo.png" alt="logo">
-        <span class="titolo">Toboolist</span>
+    <header class="header-site">
+        <img src="img/Logo.png" alt="logo" class="img-logo">
+        <h1 class="title">Toboolist</h1>
     </header>
     
     <main>
-       <div class="contenitore1">
-            <div class="tasti">
-                <span class="tasto1">Add Task</span>
-                <span class="tasto2">Add Section</span>
-            </div>
+      <div class="header-main">
+        <button class="btn-primary">Add Task</button>
+        <button class="btn-secondary">Add Section</button>
+      </div>
 
-            <div class="testo">
-                 <h1>&blacktriangledown; New Task</h1>
-                   
-                 <h1>&blacktriangledown; Today</h1>
-                    
-                 <h1>&blacktriangledown; Upcoming</h1>
-            </div>
-          
-       </div>
+      <ul class="list-main">
+        <li class="list-item-section">
+            <span>&#9207;</span>
+            <h4 class="title-section">New Task</h4>
+            <ul class="list-todos">
+                <li class="item-todo">
+                    <span class="check-green">&#10004;</span>
+                    <span class="todo-part text-todo">Quarterly newsletter</span>
+					<span class="todo-part tag tag-blue">Editorial</span>
+					<span class="todo-part tag tag-blue tag-border">Editorial</span>
+                </li>
+            </ul>
+        </li>
+        <li class="list-item-section">
+            <ul class="list-todos">
+                <li class="item-todo"></li>
+            </ul>
+        </li>
+        <li class="list-item-section">
+            <ul class="list-todos">
+                <li class="item-todo"></li>
+            </ul>
+        </li>
+      </ul>
     </main>
 
-    <footer></footer>
-
-    
+     
 </body>
 </html>
